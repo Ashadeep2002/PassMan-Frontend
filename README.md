@@ -1,16 +1,61 @@
-# React + Vite
+### PassMAN — Password Manager (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fast, minimal, and secure password management UI built using React + Vite, designed for seamless connectivity with a Node.js backend and MongoDB Atlas database.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🚀 Live Demo
 
-## React Compiler
+🔗 Frontend Deployment: https://ashadeep2002.github.io/PassMan-Frontend/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+### 🧩 Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+PassMAN Frontend provides a clean and responsive interface to securely store, view, and manage passwords.
+The app communicates with the backend through REST APIs and uses lightweight state management for efficiency.
+
+---
+
+### 🛠️ Tech Stack
+
+React.js (Vite) — lightning-fast development
+
+TailwindCSS — modern, responsive UI
+
+UUID — unique ID generation
+
+Fetch API — API communication
+
+GitHub Pages — static hosting
+
+---
+
+### ✨ Key Features
+
+Add, view, and delete saved passwords
+
+Fully responsive UI for desktop & mobile
+
+Clean and modern design
+
+Toast notifications for user feedback
+
+Integrated with backend API for real-time storage
+
+---
+
+### 📁 Project Structure
+Frontend/
+  ├── src/
+  │    ├── components/
+  │    └── App.jsx
+  ├── public/
+  ├── vite.config.js
+  ├── package.json
+
+  ---
+
+### 📜 License
+
+Open-source. Free to modify and use.

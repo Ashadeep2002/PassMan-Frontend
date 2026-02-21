@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/PassMAN-YourPasswordManager/",
+  base: "/PassMan-Frontend/",
   plugins: [react(),
             tailwindcss(),
   ],
